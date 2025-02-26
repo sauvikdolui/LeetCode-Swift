@@ -80,7 +80,9 @@
 [💰Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/)| [Swift](./Array/ShortestWordDistanceIII.swift)| Medium| O(n)| O(1)|
 [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Swift](./Array/MinimumSizeSubarraySum.swift)| Medium| O(n)| O(1)|
 [💰Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)| [Swift](./Array/MaximumSizeSubarraySumEqualsK.swift)| Medium| O(n)| O(n)|
-[Smallest Range](https://leetcode.com/problems/smallest-range/)| [Swift](./Array/SmallestRange.swift)| Hard | O(nm)| O(nm)|
+[Smallest Range 1](https://leetcode.com/problems/smallest-range-i)| [Swift](./Array/SmallestRange.swift)| Hard | O(nm)| O(nm)|
+[Smallest Range 2](https://leetcode.com/problems/smallest-range-ii)| [Swift](./Array/SmallestRange.swift)| Hard | O(nm)| O(nm)|
+[Smallest Range 3](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists)| [Swift](./Array/SmallestRange.swift)| Hard | O(nm)| O(nm)|
 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)| [Swift](./Array/ProductExceptSelf.swift)| Medium| O(n)| O(1)|
 [Rotate Array](https://leetcode.com/problems/rotate-array/)| [Swift](./Array/RotateArray.swift)| Easy| O(n)| O(1)|
 [Rotate Image](https://leetcode.com/problems/rotate-image/)| [Swift](./Array/RotateImage.swift)| Medium| O(n^2)| O(1)|
