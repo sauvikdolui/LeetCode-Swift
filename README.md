@@ -59,7 +59,7 @@
 [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [Swift](./Array/RemoveDuplicatesFromSortedArrayII.swift)| Medium| O(n)| O(1)|
 [Move Zeroes](https://leetcode.com/problems/move-zeroes/)| [Swift](./Array/MoveZeroes.swift)| Easy| O(n)| O(1)|
 [Remove Element](https://leetcode.com/problems/remove-element/)| [Swift](./Array/RemoveElement.swift)| Easy| O(n)| O(1)|
-[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)| [Swift](./Array/StrobogrammaticNumber.swift)| Easy| O(n)| O(1)|
+[💰Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)| [Swift](./Array/StrobogrammaticNumber.swift)| Easy| O(n)| O(1)|
 [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)| [Swift](./Array/CanPlaceFlowers.swift)| Easy| O(n)| O(1)|
 [Two Sum](https://leetcode.com/problems/two-sum/)| [Swift](./Array/TwoSum.swift)| Easy| O(n)| O(n)|
 [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| [Swift](./Array/TwoSumII.swift)| Easy| O(n)| O(1)|
