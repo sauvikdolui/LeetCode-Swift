@@ -64,7 +64,7 @@
 [Two Sum](https://leetcode.com/problems/two-sum/)| [Swift](./Array/TwoSum.swift)| Easy| O(n)| O(n)|
 [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| [Swift](./Array/TwoSumII.swift)| Easy| O(n)| O(1)|
 [💰Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)| [Swift](./Array/TwoSumIII.swift)| Easy| O(n)| O(1)|
-[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)| [Swift](./Array/TwoSumLessThanK.swift)| Easy| O(nlogn)| O(n)|
+[💰Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)| [Swift](./Array/TwoSumLessThanK.swift)| Easy| O(nlogn)| O(n)|
 [3Sum](https://leetcode.com/problems/3sum/)| [Swift](./Array/ThreeSum.swift)| Medium| O(n^2)| O(nC3)|
 [3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Swift](./Array/ThreeSumClosest.swift)| Medium| O(n^2)| O(nC3)|
 [4Sum](https://leetcode.com/problems/4sum/)| [Swift](./Array/FourSum.swift)| Medium| O(n^3)| O(nC4)|
