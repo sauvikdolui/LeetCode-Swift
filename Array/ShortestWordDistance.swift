@@ -27,3 +27,29 @@ class ShortestWordDistance {
         return minDistance
     }
 }
+
+// let wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "coding", word2 = "practice"
+let wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "makes", word2 = "coding"
+func minDist(_ words: [String], _ word1: String, _ word2: String) -> Int {
+    
+    var minDist = Int.max
+    var word1Index: Int? = nil
+    var word2Index: Int? = nil
+    for (i, word) in words.enumerated() {
+        if word == word1 {
+            word1Index = i
+        }
+        if word == word2 {
+            word2Index = i
+        }
+        if let word1Index = word1Index, 
+           let word2Index = word2Index {
+            minDist = min(minDist, 
+                         abs(word1Index - word2Index)
+            )
+        }
+    }
+    
+    return minDist
+}
+print(minDist(wordsDict, word1, word2))
