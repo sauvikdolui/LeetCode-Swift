@@ -28,6 +28,38 @@ class ShortestWordDistance {
     }
 }
 
+/*
+The Shortest Word Distance problem on LeetCode is defined as follows:
+
+Problem Statement:
+-----------------
+
+Given an array of strings wordsDict and two different strings that already exist in the array word1 and word2, 
+return the shortest distance between these two words in the list.
+
+Example 1:
+---------
+Input: wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "coding", word2 = "practice"
+Output: 3
+
+Example 2:
+---------
+Input: wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "makes", word2 = "coding"
+Output: 1
+
+
+Constraints:
+------------
+2 <= wordsDict.length <= 3 * 10^4
+1 <= wordsDict[i].length <= 10
+wordsDict[i] consists of lowercase English letters.
+Both word1 and word2 are in wordsDict.
+Approach to Solve:
+
+To solve this problem, you can iterate through the wordsDict array while keeping track of the most recent indices of
+word1 and word2. Each time you encounter either word, calculate the distance to the most recent occurrence of the other
+word and update the minimum distance accordingly.
+*/
 // let wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "coding", word2 = "practice"
 let wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "makes", word2 = "coding"
 func minDist(_ words: [String], _ word1: String, _ word2: String) -> Int {
