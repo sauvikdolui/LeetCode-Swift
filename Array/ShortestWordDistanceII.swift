@@ -37,6 +37,36 @@
     }
 }
 
+/*
+Problem Statement:
+
+Design a class that receives a list of words upon initialization and implements a method that returns the shortest 
+distance between any two given words in the list.
+
+Implement the WordDistance class:
+
+WordDistance(String[] wordsDict) initializes the object with the words dictionary.
+int shortest(String word1, String word2) returns the shortest distance between word1 and word2 in the array wordsDict.
+
+Example:
+-------
+wordsDict = ["practice", "makes", "perfect", "coding", "makes"]
+wordDistance = WordDistance(wordsDict)
+print(wordDistance.shortest("coding", "practice"))  # Output: 3
+print(wordDistance.shortest("makes", "coding"))    # Output: 1
+
+Constraints:
+-----------
+
+1 <= wordsDict.length <= 3 * 10^4
+1 <= wordsDict[i].length <= 10
+wordsDict[i] consists of lowercase English letters.
+All the strings in wordsDict are unique.
+word1 and word2 are in wordsDict.
+word1 != word2
+
+*/
+
 // Trying out solution
 class WordDistance {
     var index: [String: [Int]] = [:]
